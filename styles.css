@@ -13,7 +13,9 @@
   --button-hover-color: #171b20;
   --search-bar-color: #6e7681;
 }
-
+li {
+  list-style: none;
+}
 body {
   background-color: var(--background-color);
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
@@ -363,6 +365,7 @@ a {
   display: grid;
   grid-template-columns: 1.4fr 0.5fr;
 }
+
 .repo-top-left-header {
   display: flex;
   align-items: center;
@@ -681,11 +684,13 @@ h2 {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-wrap: wrap-reverse;
 }
 .footer-lists-items {
   display: flex;
   justify-content: center;
   gap: 15px;
+  flex-wrap: wrap;
 }
 .footer-lists-items-links {
   color: #848d97;
@@ -745,6 +750,52 @@ h2 {
 .eryuiop:hover {
   color: #1f6feb;
 }
+.tiyuuu {
+  display: flex;
+  align-items: center;
+}
+.tiyuuu a:hover,
+.tiyuuu a span:hover {
+  color: #1f6feb;
+}
+.perce-perceeee {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.gigigi {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+.gigigi {
+  color: #e6edf3;
+  font-size: 12px;
+  font-weight: 500;
+}
+.gigigi span:hover {
+  color: #1f6feb;
+}
+.spanish-gigigi {
+  color: #848d97;
+  margin-left: 5px;
+}
+.pppoo-dis-none {
+  text-align: center;
+  display: none;
+  justify-content: center;
+}
+.pppoo-dis-none > .middle-repo-log > a {
+  color: #1f6feb;
+}
+.perce-perceeee {
+  max-width: 300px;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 10px;
+}
+
 @media (max-width: 1080px) {
   .repo-top-btn:nth-child(2),
   .repo-top-btn:nth-child(3) {
@@ -775,6 +826,9 @@ h2 {
   .search {
     display: none;
   }
+  .repo-top-right {
+    margin-left: 0;
+  }
   .search-bar {
     width: 30px;
     padding: 5px;
@@ -802,6 +856,9 @@ h2 {
   .repo-top-btn-add-file {
     display: none;
   }
+  .footer-footest-foot {
+    flex-wrap: wrap-reverse;
+  }
 }
 @media (max-width: 768px) {
   .nav-right span,
@@ -814,9 +871,6 @@ h2 {
   }
   .repo-top-whole {
     grid-template-columns: 1fr 0;
-  }
-  .repo-top-right {
-    display: none;
   }
   .username-reponame span:nth-child(1) {
     color: var(--hover-hamburger-color);
@@ -851,6 +905,65 @@ h2 {
   }
   .list-items {
     margin-bottom: 10px;
+  }
+  .to-be-copied-repo-logs {
+    display: none;
+  }
+  .to-be-copied-repo-logs:nth-child(1),
+  .to-be-copied-repo-logs:nth-child(2),
+  .to-be-copied-repo-logs:nth-child(3),
+  .to-be-copied-repo-logs:nth-child(4),
+  .to-be-copied-repo-logs:nth-child(5),
+  .to-be-copied-repo-logs:nth-child(6),
+  .to-be-copied-repo-logs:nth-child(7),
+  .to-be-copied-repo-logs:nth-child(8),
+  .to-be-copied-repo-logs:nth-child(9),
+  .to-be-copied-repo-logs:nth-child(10) {
+    display: grid;
+  }
+  .pppoo-dis-none {
+    display: flex;
+  }
+  .repo-top-left {
+    padding-right: 16px;
+  }
+  .repo-top-right {
+    margin: 32px;
+    margin-right: 25px;
+    border-top: 1px solid var(--hamburger-frame-color);
+  }
+  .repo-top-whole {
+    display: block;
+  }
+  .ppppggayy {
+    display: none;
+  }
+  .eryuiop {
+    margin-bottom: 16px;
+  }
+  .zoppj {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    width: 250px;
+  }
+  .zoppj > .number-circle {
+    display: flex;
+    text-align: center;
+    padding-left: 7px;
+    padding-right: 7px;
+  }
+  .eryuiop:nth-child(3) {
+    margin-bottom: 0;
+  }
+  .mlooodhhf:nth-child(2) {
+    margin-top: 5px;
+  }
+  .perce-perceeee {
+    max-width: 500px;
+  }
+  .footer-footest-foot {
+    flex-wrap: wrap-reverse;
   }
 }
 
