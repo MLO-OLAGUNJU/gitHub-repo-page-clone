@@ -675,6 +675,9 @@ h2 {
   color: #1f6feb;
   text-decoration: underline;
 }
+.table-ul-list-items > li {
+  list-style: disc;
+}
 .footer-footest-foot {
   padding-top: 64px;
   padding-bottom: 40px;
