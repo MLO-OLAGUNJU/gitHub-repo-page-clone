@@ -883,9 +883,7 @@ h2 {
   .local-nav-item svg {
     margin-right: 5px;
   }
-  .head-of-repository {
-    padding-left: 32px;
-  }
+
   .watch-and-co,
   .fork {
     width: 32px;
