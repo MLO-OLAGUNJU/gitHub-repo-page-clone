@@ -737,6 +737,14 @@ h2 {
   fill: #1f6feb;
   color: #1f6feb;
 }
+.eryuiop {
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+.eryuiop:hover {
+  color: #1f6feb;
+}
 @media (max-width: 1080px) {
   .repo-top-btn:nth-child(2),
   .repo-top-btn:nth-child(3) {
