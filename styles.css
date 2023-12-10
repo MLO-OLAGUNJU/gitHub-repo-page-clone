@@ -685,12 +685,14 @@ h2 {
   justify-content: center;
   align-items: center;
   flex-wrap: wrap-reverse;
+  line-height: 55px;
 }
 .footer-lists-items {
   display: flex;
   justify-content: center;
   gap: 15px;
   flex-wrap: wrap;
+  line-height: 1px;
 }
 .footer-lists-items-links {
   color: #848d97;
@@ -880,6 +882,9 @@ h2 {
   }
   .local-nav-item svg {
     margin-right: 5px;
+  }
+  .head-of-repository {
+    padding-left: 32px;
   }
   .watch-and-co,
   .fork {
