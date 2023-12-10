@@ -909,18 +909,6 @@ h2 {
   .to-be-copied-repo-logs {
     display: none;
   }
-  .to-be-copied-repo-logs:nth-child(1),
-  .to-be-copied-repo-logs:nth-child(2),
-  .to-be-copied-repo-logs:nth-child(3),
-  .to-be-copied-repo-logs:nth-child(4),
-  .to-be-copied-repo-logs:nth-child(5),
-  .to-be-copied-repo-logs:nth-child(6),
-  .to-be-copied-repo-logs:nth-child(7),
-  .to-be-copied-repo-logs:nth-child(8),
-  .to-be-copied-repo-logs:nth-child(9),
-  .to-be-copied-repo-logs:nth-child(10) {
-    display: grid;
-  }
   .pppoo-dis-none {
     display: flex;
   }
@@ -934,6 +922,9 @@ h2 {
   }
   .repo-top-whole {
     display: block;
+  }
+  .tolu {
+    display: none;
   }
   .ppppggayy {
     display: none;
